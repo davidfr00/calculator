@@ -1,0 +1,71 @@
+/*Contenedor de la calculadora*/
+.cont{
+  width: 300px;
+  margin: 0 auto;
+    margin-top: 15%;
+}
+/*Bloque que forma la calculadora*/
+.calculator {
+    
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    
+  }
+/* Botones */
+input[type="button"] {
+
+    width: 22%;
+    height: 15%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+
+}
+/* Salida de valores */
+#display{
+
+    width: 90%;
+    height: 70px;
+    margin: 5px;
+    font-size: 26px;
+    border:none;
+    background-color: #000000;
+    color: white;
+    cursor: default;
+    
+}
+/*Color para numeros*/
+.num{
+    background-color: gray;
+    color: aliceblue;
+}
+/*Color para operadores*/
+.operator{
+    background-color: orange;
+    color: aliceblue;
+}
+
+.clear{
+    color: #000000;
+}
+
+/*Script*/
+ body{
+  background-color: #444444;
+ }
+
+ #particles-js{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  z-index: -1; /*Pone el script por debajo de la calculadora*/
+ }
