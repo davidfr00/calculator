@@ -1,10 +1,10 @@
-/*Contenedor de la calculadora*/
+/*calculator container*/
 .cont{
   width: 300px;
   margin: 0 auto;
     margin-top: 15%;
 }
-/*Bloque que forma la calculadora*/
+/*calculator star*/
 .calculator {
     
     height: 500px;
@@ -14,7 +14,7 @@
     background-color: rgb(0, 0, 0);
     
   }
-/* Botones */
+/* buttons */
 input[type="button"] {
 
     width: 22%;
@@ -29,7 +29,7 @@ input[type="button"] {
     border-radius: 100%;
 
 }
-/* Salida de valores */
+/* dashboard */
 #display{
 
     width: 90%;
@@ -42,22 +42,23 @@ input[type="button"] {
     cursor: default;
     
 }
-/*Color para numeros*/
+/*color for numbers*/
 .num{
     background-color: gray;
     color: aliceblue;
 }
-/*Color para operadores*/
+/*color for operators*/
 .operator{
     background-color: orange;
     color: aliceblue;
 }
 
+/*c color for clear button */
 .clear{
     color: #000000;
 }
 
-/*Script*/
+/* script config */
  body{
   background-color: #444444;
  }
@@ -67,5 +68,5 @@ input[type="button"] {
   width: 100%;
   height: 100%;
   top:0;
-  z-index: -1; /*Pone el script por debajo de la calculadora*/
+  z-index: -1; /* put the script behind the calculator */
  }
